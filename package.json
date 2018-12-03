@@ -1,0 +1,28 @@
+{
+  "name": "hyh",
+  "version": "1.0.0",
+  "description": "周考技能",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Han0726/hyh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Han0726/hyh/issues"
+  },
+  "homepage": "https://github.com/Han0726/hyh#readme",
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "path": "^0.12.7",
+    "uglify": "^0.1.5",
+    "url": "^0.11.0"
+  }
+}
