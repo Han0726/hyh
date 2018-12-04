@@ -5,41 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-4.3.5.min.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li>推荐</li>
-            <li>免费课程</li>
-            <li>实战</li>
-            <li>就业班</li>
-        </ul>
-    </header>
-    <section>
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/banner.gif">
+    <div class="box">
+        <header>
+            <ul>
+                <li>推荐</li>
+                <li>免费课程</li>
+                <li>实战</li>
+                <li>就业班</li>
+            </ul>
+        </header>
+        <section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/banner.gif">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner.gif">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner.gif">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner.gif">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner.gif">
+                    </div>
+                    <div class="swiper-pagination"></div>
+
                 </div>
-                <div class="swiper-slide">
-                    <img src="./images/banner.gif">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/banner.gif">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/banner.gif">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/banner.gif">
-                </div>
-                <div class="swiper-pagination"></div>
             </div>
-        </div>
-    </section>
-    <script src="./js/index.js"></script>
+            <div class="dl">
+                <h3>实战推荐</h3>
+                <dl>
+                    <dt><img src="./images/nn.gif"></dd>
+                      <dd><p>纯正商业级应用-微信小程序开发实战</p>
+                       <span>币366</span><span>中级</span><span>1476</span>
+                    </dd>
+                </dl>
+                <dl>
+                        <dt><img src="./images/nn.gif"></dd>
+                          <dd><p>纯正商业级应用-微信小程序开发实战</p>
+                           <span>币366</span><span>中级</span><span>1476</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                            <dt><img src="./images/nn.gif"></dd>
+                              <dd><p>纯正商业级应用-微信小程序开发实战</p>
+                               <span>币366</span><span>中级</span><span>1476</span>
+                            </dd>
+                        </dl>
+            </div>
+        </section>
+    </div>
+
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/flexible.js"></script>
+    <script src="./js/swiper-4.3.5.min.js"></script>
+    <script>
+        var myswiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: true
+        })
+    </script>
 </body>
 
 </html>

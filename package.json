@@ -21,8 +21,9 @@
     "gulp": "^4.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-webserver": "^0.9.1",
     "path": "^0.12.7",
-    "uglify": "^0.1.5",
     "url": "^0.11.0"
   }
 }

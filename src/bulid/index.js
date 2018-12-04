@@ -1,0 +1,1 @@
+var myswiper=new Swiper(".swiper-container",{loop:!0,autoplay:!0});
